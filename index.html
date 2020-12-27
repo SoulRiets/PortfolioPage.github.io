@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Сайт-портфолио</title>
+    <meta chatset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shotcut icon" href="images/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,500&display=swap&subset=cyrillic" rel="stylesheet">
+    <script src="BlockBreaker/build/UnityLoader.js"></script>
+    <script>
+        var unityInstance = UnityLoader.instantiate("unityContainer", "BlockBreaker/build/BlockBreaker");
+    </script>
+
+<body>
+
+    <header class="top-header">
+        <nav>
+            <ul>
+                <li class="nav-list"><a href="#welcome-page" class="nav-list_a">About</a></li>
+                <li class="nav-list"><a href="#works" class="nav-list_a">My works</a></li>
+                <li class="nav-list"><a href="#contacts" class="nav-list_a">Contacts</a></li>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome-page">
+            <h1>Привет, Я Клоун</h1>
+            <p class="welcome-page_descritption">веб-разработчик</p>
+        </section>
+
+        <section id="works">
+            <h2 id="works-title">Примеры моих работ</h2>
+            <div id="unityContainer" style="width: 500px; height: 500px; margin: auto"></div>
+            <footer>
+
+            </footer>
+</body>
+
+</html>
